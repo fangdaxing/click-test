@@ -17,12 +17,13 @@ def five():
 
 
 def run(function_name):
- if function_name:
+ if function_name == "all":
    three()
    four()
    five()
- 
-
-
-
-
+ elif function_name == "three":
+   three()
+ elif function_name == "four":
+   four()
+ elif function_name == "five":
+   five()
