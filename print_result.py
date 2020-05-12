@@ -15,7 +15,14 @@ def five():
   print(square(5))
   print(cube(5))
 
-def run():
-  three()
-  four()
-  five()
+
+def run(function_name):
+ if function_name:
+   three()
+   four()
+   five()
+ 
+
+
+
+
